@@ -1,0 +1,375 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 620485 */
+  src: url('https://at.alicdn.com/t/font_620485_e0hoh1nweraa714i.eot');
+  src: url('https://at.alicdn.com/t/font_620485_e0hoh1nweraa714i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_620485_e0hoh1nweraa714i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_620485_e0hoh1nweraa714i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_620485_e0hoh1nweraa714i.svg#iconfont') format('svg');
+}
+.zheng{
+	width: 100vw;
+	height: 100vh;
+	background-color: #f4f4f4;
+}
+.head{
+    width:100vw;
+    height: 0.96rem;
+    background:#fff;
+    border-bottom:0.01rem solid #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+.head_l{
+    width: 2.06rem;
+    height: 0.96rem;
+    float: left;
+}
+.weather{
+	width: 0.46rem;
+	height: 0.96rem;
+	margin-left: 0.31rem;
+	padding-top: 0.16rem;
+	float: left;
+	color: #666;
+}
+.weather_tu{
+	font-size: 0.3rem;
+}
+.weather_temp{
+	font-size: 0.12rem;
+}
+.dingwei{
+	width: 0.84rem;
+	height: 0.27rem;
+	font-size: 0.27rem;
+	line-height: 0.96rem;
+	float: left;
+	color: #666;
+	margin-left: 0.22rem;
+}
+.head_m{
+	width: 4.14rem;
+	height: 0.58rem;
+	background-color: #eee;
+	outline: none;
+	border: none;
+	float: left;
+	border-radius: 0.24rem;
+	padding-left: 0.2rem;
+	margin-top: 0.19rem;
+	font-family: 'iconfont';
+}
+.head_r{
+	width:1rem;
+	height: 0.96rem;
+	float: left;
+	text-align: center;
+	line-height: 0.96rem;
+	font-size: 0.5rem;
+	color: #666;
+}
+.banner{
+	width: 7.2rem;
+	height: 1.92rem;
+	float: left;
+	position: relative;
+	margin-top: 0.96rem;
+}
+.banner_img{
+	position: relative;
+	width: 7.2rem;
+	height: 1.92rem;
+}
+.banner_img li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner_img li img{
+	width: 7.2rem;
+	height: 1.92rem;
+}
+.lunbo{
+	position: absolute;
+	left: 2.64rem;
+	bottom: 0.1rem;
+	width: 2.1rem;
+	height: 0.14rem;
+}
+.lunbo li{
+	width: 0.12rem;
+	height: 0.12rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	margin-right: 0.18rem;
+	float: left;
+}
+.lunbo .active{
+	background-color: #fff;
+}
+.daohang{
+	width: 7.2rem;
+	height: 4.87rem;
+	float: left;
+	padding: 0 0.34rem;
+	background-color: #fff;
+}
+.daohang_t{
+	width: 6.5rem;
+	height: 2.07rem;
+	border-bottom: 0.01rem solid #eee;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 0.3rem;
+}
+.daohang_t li img{
+	width: 0.9rem;
+	height: 0.9rem;
+}
+.daohang_t li p{
+	font-size: 0.22rem;
+	text-align: center;
+}
+.daohang_b1{
+	width: 6.5rem;
+	height: 1.3rem;
+	display: flex;
+	justify-content: space-around;
+}
+.daohang_b1_item{
+	width: 1.3rem;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.daohang_b1_item img{
+	margin: 0.24rem 0.4rem 0;
+	width: 0.45rem;
+	height: 0.45rem;
+	display: block;
+}
+.daohang_b1_item p{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #666;
+}
+.daohang_b2{
+	height: 1.5rem;
+}
+.si{
+	width: 7.2rem;
+	height:4.9rem;
+	margin-top: 0.2rem;
+	float: left;
+	padding: 0.2rem 0.1rem 0.1rem 0.2rem;
+	background-color: #fff;
+}
+.si img{
+	width: 3.35rem;
+	height: 2.2rem;
+	margin: 0 0.1rem  0.1rem 0;
+	float: left;
+}
+.guang{
+	width: 7.2rem;
+	height: 1.8rem;
+	margin: 0.2rem 0;
+	float: left;
+}
+.guang img{
+	width: 7.2rem;
+	height: 1.8rem;
+}
+.cai{
+	width: 7.2rem;
+	height: auto;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 1.05rem;
+}
+.cai_title{
+	width: 100%;
+	height: 0.8rem;
+}
+.cai_title_heng{
+	width: 0.16rem;
+	height: 0.02rem;
+	background-color: #dbdbdb;
+	margin-top: 0.39rem;
+	float: left;
+}
+.xian1{
+	margin-left: 2.8rem;
+}
+.cai_title p{
+	color: #999;
+	font-size: 0.24rem;
+	line-height: 0.8rem;
+	float: left;
+	margin:0 0.13rem;
+}
+.dong{
+	width: 7.2rem;
+	height: 1.04rem;
+	border-top: 0.01rem solid #eee;
+	border-bottom: 0.01rem solid #eee;
+	background-color: #fff;
+	padding: 0.16rem 0.2rem;
+}
+.wenzi{
+	width: 6.8rem;
+	height: 0.7rem;
+	border: 0.01rem solid #ecd191;
+	background-color: #fff6de;
+	text-align: center;
+	line-height: 0.7rem;
+	padding: 0 0.44rem 0 0.24rem;
+}
+.wenzi p{
+	font-size: 0.28rem;
+	color: #ff9e0c;
+	float: left;
+}
+.wenzi h1{
+	font-size: 0.12rem;
+	color: #ff9e0c;
+	line-height: 0.7rem;
+}
+.cai_content{
+	width: 7.2rem;
+	height: auto;
+	padding: 0 0.2rem;
+}
+.cai_content_item1{
+	width: 6.8rem;
+	height: 3.93rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.cai_content_item1 h1{
+	font-size: 0.32rem;
+	color: #333;
+	padding-top: 0.24rem;
+}
+.cai_content_item1 img{
+	width: 2.16rem;
+	height: 1.68rem;
+	float: left;
+	margin-right: 0.16rem;
+	margin-top: 0.3rem;
+}
+.cai_content_item1 .cai_con_item2{
+	margin-right: 0;
+}
+.cai_con_bottom{
+	width: 6.8rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.25rem;
+}
+.cai_con_bottom span{
+	font-size: 0.24rem;
+	color: #6b6b6b;
+	float: left;
+}
+.cai_con_bottom p,.close{
+	width: 0.3rem;
+	height: 0.24rem;
+	border: 0.01rem solid #efefef; 
+	border-radius: 0.08rem;
+	color: #d8d8d8;
+	font-size: 0.2rem;
+	float: right;
+	text-align: center;
+	line-height: 0.24rem;
+}
+.cai_content_item2{
+	width: 6.8rem;
+	height: 2.08rem;
+	padding: 0.23rem 0;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.cai_content_item2_img{
+	width: 1.6rem;
+	height: 1.6rem;
+	float: left;
+}
+.juli{
+	font-size: 0.26rem;
+	color: #6b6b6b;
+	float: right; 
+}
+.cai_con_item2_r{
+	width: 4.9rem;
+	height: 1.6rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.title{
+	font-size: 0.32rem;
+	color: #333;
+}
+.jieshi{
+	font-size: 0.26rem;
+	color: #6b6b6b;
+	margin-top: 0.24rem;
+}
+.cai_con_item2_r_bottom{
+	width: 4.9rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.49rem;
+}
+.cai_con_item2_r_bottom span{
+	font-size: 0.24rem;
+	color: #6b6b6b;
+	display: block;
+	float: left;
+}
+.price{
+	font-size: 0.28rem;
+	color: #ff6600;
+	float: left;
+}
+.sell{
+	font-size: 0.24rem;
+	color: #6b6b6b;
+	float: left;
+	margin-left: 2.3rem;
+}
+.cai_con_item2_r_bottom1{
+	margin-top: 0.3rem;
+}
+.gu{
+	width: 7.2rem;
+	height: 1.05rem;
+	border-top: 0.02rem solid #e5e5e5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 0.2rem;
+	background-color: #fff;
+}
+.gu_item{
+	width: 1.36rem;
+	height: 1.05rem;
+	text-align: center;
+	padding-top: 0.14rem;
+	float: left;
+	color: #666;
+}
+.gu_item p{
+	font-family: 'iconfont';
+	font-size: 0.42rem;
+}
+.gu_item a{
+	display: block;
+	font-size: 0.22rem;
+	color: #666;
+}
+.gu_item .active{
+	color: #0dc3b0;
+}
